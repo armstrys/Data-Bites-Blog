@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![](https://raw.githubusercontent.com/rysarmstr/Data-Bites-Blog/master/_notebooks/pictures/portrait.jpg)
+![](https://raw.githubusercontent.com/rysarmstr/Data-Bites-Blog/master/_notebooks/pictures/portrait.jpg =250x)
 
 I'm a geoscientist by background with a strong desire to uncover the "why" of challenging problems. I've spend my career studying geologic, geophysical, and environmental data, but spend much of my free time trolling through other publicly available data. 
 
