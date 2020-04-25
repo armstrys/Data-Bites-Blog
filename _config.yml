@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Data Bites Blog
+description: A quick look into my ongoing side projects and visualizations as I explore the world of data science and machine learning.
 github_username: rysarmstr
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "Data-Bites-Blog"
@@ -40,7 +40,7 @@ baseurl: "/Data-Bites-Blog" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     twitter: fastdotai
-    github: fastai
+    github: rysarmstr
 
 # Set this to true to get LaTeX math equation support
 use_math: 
