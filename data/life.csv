@@ -1,17 +1,13 @@
 Name,Lat,Long,Type,Comments
-Colorado College,38.848179,-104.824072,Live,
-University of Wisconsin – Madison,43.07664,-89.411844,Live,
-University of Wyoming,41.314535,-105.583803,Live,
-"Houston, Texas",29.754744,-95.359791,Field,
-"Christchurch, New Zealand",-43.523673,172.584118,Field,
-Eel River Critical Zone Observatory,39.718345,-123.652625,Field,
-Snowy Range,41.343634,-106.21226,Field,
-Laramie Range,41.261207,-105.393194,Field,
-Gulf of Mexico,27.040012,-92.737999,Study,
-Ghana,4.140224,-2.729944,Study,
-Porcupine Basin,50.91004,-12.607474,Study,
-Sergipe,-11.16054,-36.582305,Study,
-Mauritania,6.253583,-51.223347,Study,
-Sierra Leone,6.832838,-12.358791,Study,
-Offshore Newfoundland,56.149432,-53.327567,Study,
-South Africa,-35.402523,17.756566,Study,
+"Christchurch, New Zealand",-43.523673,172.584118,Study,"In 2011 I attended field camp in New Zealand and my study abroad in Christchurch was cut short by the 2011 Canterbury Earthquake. The following summer I studied the Canterbury region to identify repeating earthquakes within the aftershock sequence, which ultimately became my senior thesis at Colorado College."
+Eel River Critical Zone Observatory,39.718345,-123.652625,Field,"Geophysical data collection (Seismic refraction, electrical resistivity, and surface nuclear magnetic resonance)."
+Snowy Range,41.343634,-106.21226,Field,"My Master’s thesis at the University of Wyoming was an integrated interpretation of the Snowy Range watershed, combining existing remote sensing data and airbone electromagnetic data (acquired by SkyTEM)."
+Gulf of Mexico,27.040012,-92.737999,Study,Various geophysical studies including seismic reflection data (pre-stack and stack) and well logs from the prospect scale to play scale across the GOM.
+Ghana,4.140224,-2.729944,Study,Stratigraphic interpretation of seismic reflection data for regional shallow hazard interpretation
+Porcupine Basin,50.91004,-12.607474,Study,New Ventures - Basin play analysis
+"Sergipe, Brazil",-11.16054,-36.582305,Study,Seismic reflection interpretation
+French Guiana,6.253583,-51.223347,Study,New Ventures - Basin play analysis and prospect evaluation
+Sierra Leone,6.832838,-12.358791,Study,New Ventures - Basin play analysis
+Offshore Newfoundland,56.149432,-53.327567,Study,Prospect analysis and well planning
+South Africa,-35.402523,17.756566,Study,New Ventures - Basin play analysis
+Mauritania,17.840143,-17.204084,Study,New Ventures - Basin play analysis and prospect evaluation
