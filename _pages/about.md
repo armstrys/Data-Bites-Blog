@@ -4,7 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-![](/pictures/portrait.jpg) | height = 100px
+![](/pictures/portrait.jpg | height = 100px)
+![](/[pictures/portrait.jpg | height = 100px])
 <img src="./pictures/portrait.jpg" width="250">
 
 I'm a geoscientist by background with a strong desire to uncover the "why" of challenging problems. I've spend my career studying geologic, geophysical, and environmental data, but spend much of my free time trolling through other publicly available data. 
