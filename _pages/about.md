@@ -6,6 +6,6 @@ permalink: /about/
 
 ![]({{ site.baseurl }}/images/portrait_circle.png){:height="200px" width="200px"}
 
-I'm a geoscientist by background with a strong desire to uncover the "why" of challenging problems. I've spent my career studying geologic, geophysical, and environmental data, but spend much of my free time trolling through other publicly available data. 
+Growing up I always loved physics, because of its ability to explain the natural world. Eventually I fell in love with geology because of it's unexplained problems and requirement for creative thinking. Recently, I've stumbled into the world of data science and deep learning where all the joys I found in geology and physics seem to collide into one generalized science. I've spent my career studying large geologic, geophysical, and environmental data set. Now I've started honing my data manipulation and modeling skills to catch up with my intuitions.
 
-As I continue to learn more python and vizualization skills I will be sharing my learnings and insights here on this blog. Please visit [this page](https://rysarmstr.github.io/Data-Bites-Blog/jupyter/2020/04/25/Introduction.html) or visit [my LinkedIn](https://www.linkedin.com/in/rysarmstr/) for more details on my background in geoscience and physics.
+This blog will serve as my personal outlet as I continue to learn more python, data modeling, and vizualization. Please visit [this page](https://rysarmstr.github.io/Data-Bites-Blog/2020/04/25/Introduction.html) or visit [my LinkedIn](https://www.linkedin.com/in/rysarmstr/) for more details on my background in geoscience and physics.
