@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Data Bites Blog
-description: Quick bites of my ongoing side projects and visualizations as I explore the world of data science and machine learning.
+description: Quick bites of my on-going side projects as I explore the world of data science and machine learning.
 github_username: rysarmstr
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "Data-Bites-Blog"
