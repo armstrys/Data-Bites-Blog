@@ -197,6 +197,7 @@ window.onload = wrap_img;
 </h2>
 <p>One issue with using aggregated regular season statistics in an NCAA tournament model is that it doesn't account for opponent strength of schedule. We can use embeddings to extend pair-wise comparison methods, like the Bradley-Terry model, to more complex metrics than just wins and losses. These methods assume static team skill, but qualitatively appear more robust than aggregating statistics.</p>
 <p>Update: See <a href="https://rysarmstr.github.io/Data-Bites-Blog/kaggle/2020/05/10/Simple-NCAA-Tournament-Model.html">this post</a> for a simple comparison of tournament models built with the emebeddings and aggregated point data. The embeddings provide an uplift over the data they were trained by. More testing is needed to see if embeddings prove useful when extended to advanced statistics.</p>
+<p><strong>Note: This work was inspired by <a href="https://www.kaggle.com/abhijitbrahme/embedding-ncaa-model">this Kaggle notebook</a>, which is the Kaggle notebook I've seen applying embeddings to the NCAA tournament. Here is a second example of embeddings used for <a href="https://www.youtube.com/watch?v=nQK44L9j9hY&amp;list=UUk36k_W8ew3v2ZDjQgKi10Q&amp;index=83">baseball</a> (this is a great place to start if you are not familiar with embeddings) and the concept could easily be applied to other sports.</strong></p>
 <h2 id="Introduction">
 <a class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction<a class="anchor-link" href="#Introduction"> </a>
 </h2>
@@ -211,7 +212,6 @@ window.onload = wrap_img;
 <li>Training and validation - the model is trained using only regular season data from all years and is validated on a secondary set of tournament data (<a href="https://en.wikipedia.org/wiki/National_Invitation_Tournament">NIT</a>). This is difficult because we have a slight mismatch between our training and validation data. The validation data is generally similar and likely more representative of the real NCAA tournament. That is okay; the end goal of this model is trained embeddings and not win prediction.</li>
 <li>Sense check and exploratory analysis - First thing is to check that predictions from the model are sensible, but what we really care about is the embeddings. Do they carry more useful information than simple aggregations of the data they represent? In short, Yes!</li>
 </ul>
-<p>Note: This work was inspired by <a href="https://www.kaggle.com/abhijitbrahme/embedding-ncaa-model">this Kaggle notebook</a>, which is the first basketball application I've seen of this concept. Here is a second example of embeddings used for <a href="https://www.youtube.com/watch?v=nQK44L9j9hY&amp;list=UUk36k_W8ew3v2ZDjQgKi10Q&amp;index=83">baseball</a> and the concept could easily be applied to other sports.</p>
 
 </div>
 </div>
