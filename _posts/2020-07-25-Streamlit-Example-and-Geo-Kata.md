@@ -7,13 +7,15 @@ title: Streamlit Example and Geo Kata
 ---
 # Overview
 
-Over the past few months I've been working through a [series of challenges (kata)](https://agilescientific.com/blog/2020/4/16/geoscientist-challenge-thyself?rq=kata) put together by the folks at [Agile Geosciences](https://agilescientific.com/). These are small, geoscience-oriented puzzles that are great for practicing basic python skills and keep you thinking. I've also been doing a lot of my coding lately in [Streamlit](https://streamlit.io/) as opposed to [Jupyter Notebooks (or Lab)](https://jupyter.org/). This has been a good learning experience as Streamlit requires a bit more structured thinking in how you put your code together compared to Jupyter, where you can jump from cell to cell. Below I'll give a quick overview of my impressions of Streamlit and also give links to the Agile kata examples that I've been working on.
+Over the past few months I've been working through a [series of challenges (kata)](https://agilescientific.com/blog/2020/4/16/geoscientist-challenge-thyself?rq=kata) put together by the folks at [Agile Geosciences](https://agilescientific.com/). These are small, geoscience-oriented puzzles that are great for practicing basic Python skills and keep you thinking. I've also been doing a lot of my coding lately in [Streamlit](https://streamlit.io/) as opposed to [Jupyter Notebooks (or Lab)](https://jupyter.org/). This has been a good learning experience as Streamlit requires a bit more structured thinking in how you put your code together compared to Jupyter, where you can jump from cell to cell. Below I'll give a quick overview of my impressions of Streamlit and also give links to my Agile Geocomputing kata example solutions.
 
 ## Links to the Examples
 
-If you want to jump right into examples, you can find go look at [my repository](https://github.com/armstrys/Kata-Geochallenge-Solutions). If you copy the [raw Github](https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub) link for a given `.py` file, then you can actually run the Streamlit code directly from the web. An example below:
+If you want to jump right into examples, you can find go look at [my repository](https://github.com/armstrys/Kata-Geochallenge-Solutions). If you copy the [raw Github](https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub) link for a given `.py` file, then you can actually run the Streamlit code directly from the web. Try running the example below with an active environment that has Streamlit installed:
 
-```streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/Kata-Fossil-Hunting.py```
+```
+streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/Kata-Prospecting.py
+```
 
 These were fun to put together and though the puzzles not inherently interactive, I tried to add a few buttons, sliders, and dropdowns along the way just to keep things interesting.
 
