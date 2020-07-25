@@ -13,7 +13,7 @@ Over the past few months I've been working through a [series of challenges (kata
 
 If you want to jump right into examples, you can find go look at [my repository](https://github.com/armstrys/Kata-Geochallenge-Solutions). If you copy the [raw Github](https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub) link for a given `.py` file, then you can actually run the Streamlit code directly from the web. An example below:
 
-`streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/Kata-Fossil-Hunting.py`
+```streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/Kata-Fossil-Hunting.py```
 
 These were fun to put together and though the puzzles not inherently interactive, I tried to add a few buttons, sliders, and dropdowns along the way just to keep things interesting.
 
@@ -27,7 +27,7 @@ Streamlit is a really interesting product. It is a totally different take from J
 
 - Incredibly intuitive widgets. They just work. One line of code to assign a widget to a variable that can be used like any other variable.
 - Code runs top to bottom every time it's executed, which is on save or by widget changes. This means no forgetting to re-run a cell in your notebook or accidentally re-running something that takes forever.
-- Time-intensive code can be cached by the `@st.cache()` if placed in a function. This is a key optimization, because the way Streamlit executes your code.
+- Time-intensive code can be cached by placing `@st.cache()` above a function. This is a key optimization, because the way Streamlit executes your code.
 - Can be used with any text editor.
 - Designed to create applets quickly and easily - again, this is different than Jupyter Notebooks by design and it makes building clean interfaces with interactive widgets very straight-forward.
 
