@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: Brief Streamlit overview and Agile Geoscience Kata.
+description: Brief overview of Streamlit and Agile Geoscience Kata.
 categories: [streamlit]
 title: Streamlit Example and Geo Kata
 ---
