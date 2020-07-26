@@ -44,4 +44,4 @@ Worth noting that Streamlit recently added a new feature called [Components](htt
 
 # Conclusion
 
-These puzzles and learning different coding styles in Streamlit have been a great help to my personal Python development over the past few years.While I will probably stick mostly with Jupyter Notebooks and Jupyter Lab due to the flexibility and interoperability with multiple platforms, Streamlit will be my go-to tool any time I have a simple POC that is better served as an applet than a live document.
+These puzzles and learning different coding styles in Streamlit have been a great help to my personal Python development over the past few months. While I will probably stick mostly with Jupyter Notebooks and Jupyter Lab due to the flexibility and interoperability with multiple platforms, Streamlit will be my go-to tool any time I have a simple POC that is better served as an applet than a live document.
