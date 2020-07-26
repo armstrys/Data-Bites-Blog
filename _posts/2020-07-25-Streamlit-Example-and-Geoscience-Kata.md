@@ -35,12 +35,11 @@ Streamlit is a really interesting product. It is a totally different take from J
 
 **Cons**
 
-- Not as extensible as Jupyter Notebooks. For the most part you are stuck with what is available in Streamlit as you cannot add on third-party extensions.
 - More difficult to quickly test code and see results. The nature of the interface is not as natural as a Jupyter Notebook where each line of code spits out the result on the line below.
 - Cannot render onto platforms like Github the same way you could a `.ipynb`.
 - Finally, a bit more of a learning curve. This might not be as much of an issue for more experience coders. I found the friendly and forgiving sandbox of Jupyter Notebooks fundamentally easier to understand when getting started.
 
-Worth noting that Streamlit recently added a new feature called [Components](https://docs.streamlit.io/en/latest/streamlit_components.html) that does make Streamlit more extensible via custom HTML or Javascript. I don't have a good handle on what the limits or possibilities of this addition, but I imagine examples will start popping up pretty quickly. If you haven't tried out Streamlit yet I hope this was enough useful info to convince you that you should give it a go (or not)!
+Initially, I planned to list a lack of third-party extensions on the Streamlit cons, but they have recently added a new feature called [Components](https://docs.streamlit.io/en/latest/streamlit_components.html) that allows for the addition of new components via custom HTML or Javascript. I don't have a good handle on what the limits or possibilities of this addition, but you can already view some of the early contributions using the new feature in their [components gallery](https://www.streamlit.io/components). If you haven't tried out Streamlit yet I hope this was enough useful info to convince you that you should give it a go (or not)!
 
 # Conclusion
 
