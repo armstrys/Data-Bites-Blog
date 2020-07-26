@@ -9,13 +9,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Brief overview of Streamlit and Agile Geoscience Kata." />
 <meta property="og:description" content="Brief overview of Streamlit and Agile Geoscience Kata." />
-<link rel="canonical" href="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html" />
-<meta property="og:url" content="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html" />
+<link rel="canonical" href="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html" />
+<meta property="og:url" content="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html" />
 <meta property="og:site_name" content="Data Bites Blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-07-25T00:00:00-05:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-07-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html"},"description":"Brief overview of Streamlit and Agile Geoscience Kata.","@type":"BlogPosting","url":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html","headline":"Streamlit Example and Geo Kata","dateModified":"2020-07-25T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"datePublished":"2020-07-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html"},"description":"Brief overview of Streamlit and Agile Geoscience Kata.","@type":"BlogPosting","url":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html","headline":"Streamlit Example and Geo Kata","dateModified":"2020-07-25T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Data-Bites-Blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://armstrys.github.io/Data-Bites-Blog/feed.xml" title="Data Bites Blog" /><link rel="shortcut icon" type="image/x-icon" href="/Data-Bites-Blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Streamlit Example and Geo Kata | Data Bites Blog</title>
@@ -24,13 +24,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Brief overview of Streamlit and Agile Geoscience Kata." />
 <meta property="og:description" content="Brief overview of Streamlit and Agile Geoscience Kata." />
-<link rel="canonical" href="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html" />
-<meta property="og:url" content="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html" />
+<link rel="canonical" href="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html" />
+<meta property="og:url" content="https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html" />
 <meta property="og:site_name" content="Data Bites Blog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-07-25T00:00:00-05:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-07-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html"},"description":"Brief overview of Streamlit and Agile Geoscience Kata.","@type":"BlogPosting","url":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html","headline":"Streamlit Example and Geo Kata","dateModified":"2020-07-25T00:00:00-05:00","@context":"https://schema.org"}</script>
+{"datePublished":"2020-07-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html"},"description":"Brief overview of Streamlit and Agile Geoscience Kata.","@type":"BlogPosting","url":"https://armstrys.github.io/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html","headline":"Streamlit Example and Geo Kata","dateModified":"2020-07-25T00:00:00-05:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -166,20 +166,19 @@ window.onload = wrap_img;
 <p><strong>Cons</strong></p>
 
 <ul>
-  <li>Not as extensible as Jupyter Notebooks. For the most part you are stuck with what is available in Streamlit as you cannot add on third-party extensions.</li>
   <li>More difficult to quickly test code and see results. The nature of the interface is not as natural as a Jupyter Notebook where each line of code spits out the result on the line below.</li>
   <li>Cannot render onto platforms like Github the same way you could a <code class="highlighter-rouge">.ipynb</code>.</li>
   <li>Finally, a bit more of a learning curve. This might not be as much of an issue for more experience coders. I found the friendly and forgiving sandbox of Jupyter Notebooks fundamentally easier to understand when getting started.</li>
 </ul>
 
-<p>Worth noting that Streamlit recently added a new feature called <a href="https://docs.streamlit.io/en/latest/streamlit_components.html">Components</a> that does make Streamlit more extensible via custom HTML or Javascript. I don’t have a good handle on what the limits or possibilities of this addition, but I imagine examples will start popping up pretty quickly. If you haven’t tried out Streamlit yet I hope this was enough useful info to convince you that you should give it a go (or not)!</p>
+<p>Initially, I planned to list a lack of third-party extensions on the Streamlit cons, but they have recently added a new feature called <a href="https://docs.streamlit.io/en/latest/streamlit_components.html">Components</a> that allows for the addition of new components via custom HTML or Javascript. I don’t have a good handle on what the limits or possibilities of this addition, but you can already view some of the early contributions using the new feature in their <a href="https://www.streamlit.io/components">components gallery</a>. If you haven’t tried out Streamlit yet I hope this was enough useful info to convince you that you should give it a go (or not)!</p>
 
 <h1 id="conclusion">
 <a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h1>
 
 <p>These puzzles and learning different coding styles in Streamlit have been a great help to my personal Python development over the past few months. While I will probably stick mostly with Jupyter Notebooks and Jupyter Lab due to the flexibility and interoperability with multiple platforms, Streamlit will be my go-to tool any time I have a simple POC that is better served as an applet than a live document.</p>
 
-  </div><a class="u-url" href="/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geo-Kata.html" hidden></a>
+  </div><a class="u-url" href="/Data-Bites-Blog/streamlit/2020/07/25/Streamlit-Example-and-Geoscience-Kata.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
