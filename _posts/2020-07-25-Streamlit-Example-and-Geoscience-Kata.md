@@ -14,7 +14,7 @@ Over the past few months I've been working through a [series of challenges (kata
 If you want to jump right into examples, you can find go look at [my repository](https://github.com/armstrys/Kata-Geochallenge-Solutions). If you copy the [raw Github](https://help.data.world/hc/en-us/articles/115006300048-GitHub-how-to-find-the-sharable-download-URL-for-files-on-GitHub) link for a given `.py` file, then you can actually run the Streamlit code directly from the web. Try running the example below with an active environment that has Streamlit installed:
 
 ```
-streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/Kata-Prospecting.py
+streamlit run https://raw.githubusercontent.com/armstrys/Kata-Geochallenge-Solutions/master/streamlit-dashboards/04-Kata-Prospecting.py
 ```
 
 These were fun to put together and though the puzzles not inherently interactive, I tried to add a few buttons, sliders, and dropdowns along the way just to keep things interesting.
